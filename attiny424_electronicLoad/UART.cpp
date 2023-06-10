@@ -47,7 +47,7 @@ uint32_t USART1_toValue(const char *str) {
 			if ((str[i] > 47 && str[i] < 58 )) { // is character digit?
 
 
-				value += j * uint8_t(str[i] - '0'); //turn character to integer
+				value += j * (uint8_t)(str[i] - '0'); //turn character to integer
 				j *= 10;
 			}
 			else{
