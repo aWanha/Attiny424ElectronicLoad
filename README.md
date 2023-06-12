@@ -3,3 +3,7 @@ Attiny424 controlled dc load. Basic features such as constant current, resistanc
 
 
 ![schematic](https://github.com/aWanha/Attiny424ElectronicLoad/blob/main/schematic.jpg)
+
+# Set current by device vs actual current measured with dmm
+
+![graph](https://github.com/aWanha/Attiny424ElectronicLoad/blob/main/currentVsTimeGraph.JPG)
